@@ -1,0 +1,35 @@
+.child1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.selectors {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  margin-bottom: 20px;
+}
+
+.company-selectors {
+  display: flex;
+  gap: 1rem;
+}
+
+.month-selectors {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.legend text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  fill: #333;
+}
+
+.open-circle,
+.close-circle {
+  cursor: pointer;
+}
